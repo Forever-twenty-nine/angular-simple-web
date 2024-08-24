@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FtnHeaderComponent } from '../../../ftn-workspace/projects/ftn-components/src/lib/components/ftn-header/ftn-header.component';
+import { FtnHeaderComponent } from '../../../angular-library/projects/ftn-components/src/lib/components/ftn-header/ftn-header.component';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +11,6 @@ import { FtnHeaderComponent } from '../../../ftn-workspace/projects/ftn-componen
 })
 export class AppComponent {
   title = 'angular-simple-web';
-  imgsrc = 'src/assets/header.png';
+  imgsrc = 'src/assets/images/brand.png';
   cabecera = "header";
 }
