@@ -11,6 +11,6 @@ import { FtnHeaderComponent } from '../../../angular-library/projects/ftn-compon
 })
 export class AppComponent {
   title = 'angular-simple-web';
-  imgsrc = 'src/assets/header.png';
+  imgsrc = 'src/assets/images/brand.png';
   cabecera = "header";
 }
