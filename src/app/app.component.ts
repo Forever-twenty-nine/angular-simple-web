@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FtnHeaderComponent } from '../../../angular-library/projects/ftn-components/src/lib/components/ftn-header/ftn-header.component';
-import { FtnFooterComponent } from '../../../angular-library/projects/ftn-components/src/lib/components/ftn-footer/ftn-footer.component';
+import { FtnHeaderComponent } from '../../../angular-library/dist/ftn-components/lib/components/ftn-header/ftn-header.component';
+import { FtnFooterComponent } from '../../../angular-library/dist/ftn-components/lib/components/ftn-footer/ftn-footer.component';
 
 @Component({
   selector: 'app-root',
