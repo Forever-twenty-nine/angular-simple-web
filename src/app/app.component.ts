@@ -4,7 +4,8 @@ import { FtnHeaderComponent,
          FtnFooterComponent, 
          FtnHeroComponent, 
          FtnBrandsComponent, 
-         FtnBenefitsComponent} from '../../../angular-library/dist/ftn-components';
+         FtnBenefitsComponent,
+         FtnContactComponent} from '../../../angular-library/dist/ftn-components';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ import { FtnHeaderComponent,
             FtnFooterComponent, 
             FtnHeroComponent,
             FtnBrandsComponent,
-            FtnBenefitsComponent],
+            FtnBenefitsComponent,
+            FtnContactComponent],  
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

@@ -1,11 +1,38 @@
 :root{
 
-    --header-bg: #d9ed92;
-    --hero-bg: #b5e48c;
-    --brands-bg: #99d98c;
-    --benefits-bg: #76c893;
-    --banner-bg: #52b69a;
-    --contact-bg: #34a0a4;
-    --footer-bg: #168aad; 
+    // Main Color
+
+    // Structure
+
+    --header-padding:   0.5rem;
+    --header-position:  fixed;
+    --header-top:       0;
+    --header-bg:        #d9ed9276;
+
+    --hero-bg:      #b5e48c;
+
+    --brands-bg:    #99d98c;
+
+    --benefits-bg:  #76c893;
+
+    --banner-bg:    #52b69a;
+
+    --contact-bg:   #34a0a4;
+
+    --footer-bg:    #168aad; 
+
+
+    // Utilies
+    --btn-padding:              .6rem 1.2rem;
+    --btn-border-radius:        2rem;
+
+    --btn-cta-bg:               #7c60a4;
+    --btn-cta-color:            #FFF1DB;
+    --btn-cta-border:           1px solid #4a316e;
+    --btn-cta-hover-bg:         #593e7e;
+    --btn-cta-hover-color:      white;
+
+
+
     
 }
