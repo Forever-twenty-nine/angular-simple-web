@@ -1,12 +1,20 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { FtnHeaderComponent } from '../../../angular-library/dist/ftn-components/lib/components/ftn-header/ftn-header.component';
-import { FtnFooterComponent } from '../../../angular-library/dist/ftn-components/lib/components/ftn-footer/ftn-footer.component';
+import { RouterOutlet } from '@angular/router'; 
+import { FtnHeaderComponent, 
+         FtnFooterComponent, 
+         FtnHeroComponent, 
+         FtnBrandsComponent, 
+         FtnBenefitsComponent} from '../../../angular-library/dist/ftn-components';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FtnHeaderComponent, FtnFooterComponent],
+  imports: [RouterOutlet, 
+            FtnHeaderComponent, 
+            FtnFooterComponent, 
+            FtnHeroComponent,
+            FtnBrandsComponent,
+            FtnBenefitsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
