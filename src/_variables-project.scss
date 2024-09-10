@@ -7,16 +7,17 @@
     --banner-bg: #52b69a;
     --contact-bg: #34a0a4;
     --footer-bg: #168aad;
-    --button-bg: pink;
+
 
     // Main Color
+    --brand-color: #B2C8DF;
+    --brand-color-2: #84a2c2;
 
     // Structure
-
     --header-padding:   0.5rem;
     --header-position:  fixed;
     --header-top:       0;
-    --header-bg:        #d9ed9276;
+    --header-bg:        white;
 
     --hero-bg:      #b5e48c;
 
@@ -35,10 +36,10 @@
     --btn-padding:              .6rem 1.2rem;
     --btn-border-radius:        2rem;
 
-    --btn-cta-bg:               #7c60a4;
-    --btn-cta-color:            #FFF1DB;
-    --btn-cta-border:           1px solid #4a316e;
-    --btn-cta-hover-bg:         #593e7e;
+    --btn-cta-bg:               var(--brand-color);
+    --btn-cta-color:            white;
+    --btn-cta-border:           1px solid var(--brand-color-2);
+    --btn-cta-hover-bg:         var(--brand-color-2);
     --btn-cta-hover-color:      white;
 
 
