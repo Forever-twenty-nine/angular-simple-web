@@ -1,17 +1,10 @@
 :root{
 
-    --header-bg: #d9ed92;
-    --hero-bg: #b5e48c;
-    --brands-bg: #99d98c;
-    --benefits-bg: #76c893;
-    --banner-bg: #52b69a;
-    --contact-bg: #34a0a4;
-    --footer-bg: #168aad;
-
 
     // Main Color
     --brand-color: #B2C8DF;
     --brand-color-2: #84a2c2;
+    --brand-color-3: #e1eaf4; 
 
     // Structure
     --header-padding:   0.5rem;
@@ -19,7 +12,12 @@
     --header-top:       0;
     --header-bg:        white;
 
-    --hero-bg:      #b5e48c;
+
+    --hero-padding:         2rem 0.5rem;
+    --hero-bg:              var(--brand-color-3);
+    --hero-h1-color:        var(--brand-color-2);
+    --hero-h1-font-size:    3rem;
+    --hero-h1-font-weight:  700;
 
     --brands-bg:    #99d98c;
 
