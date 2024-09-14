@@ -12,7 +12,7 @@ import {
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,
+  imports: [RouterOutlet, 
     FtnHeaderComponent,
     FtnFooterComponent,
     FtnHeroComponent,
@@ -23,7 +23,7 @@ import {
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'angular-simple-web';
-  imgsrc = 'src/assets/images/brand.png';
-  cabecera = "header";
+  // title = 'angular-simple-web';
+  // imgsrc = 'src/assets/images/brand.png';
+  // cabecera = "header";
 }

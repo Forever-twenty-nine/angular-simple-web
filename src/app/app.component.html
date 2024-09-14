@@ -1,19 +1,29 @@
-<ftn-header srcImage="assets/images/brand.svg"
-            altImage="Logo empresarial"
+<ftn-header imgSrc="assets/images/brand.svg"
+            imgAlt="Logo empresarial"
             [button]="true"
-            buttonLabel="header-label"
-            label="New Btn Name" >
+            btnText="Contáctanos"
+            btnUrl="oneurl.html" >
 </ftn-header>
 
 <main>
 
-    <ftn-hero [button]="true" buttonLabel="hero-label"></ftn-hero>
+    <ftn-hero [tag]="true" 
+              tagText="Some tag here"
+              title="Important title here"
+              [paragraph]="true"
+              paragraphText="Some paragraph text large here"
+              [button]="true" 
+              btnText="hero-label"
+              imgSrc="assets/images/hero-img.png"
+              imgAlt="Image important">
+    </ftn-hero>
+
     <ftn-brands></ftn-brands>
     <ftn-benefits></ftn-benefits>
 
 </main>
 
-<ftn-button label="button-label" design="cta"></ftn-button>
+<ftn-button btnLabel="button-label"></ftn-button>
 
 <ftn-footer></ftn-footer>
 
