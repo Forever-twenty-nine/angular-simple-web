@@ -6,7 +6,8 @@ import {
   FtnHeroComponent,
   FtnBrandsComponent,
   FtnBenefitsComponent,
-  FtnButtonComponent
+  FtnButtonComponent,
+  FtnCardComponent
 } from '../../../angular-library/dist/ftn-components';
 
 @Component({
@@ -18,7 +19,8 @@ import {
     FtnHeroComponent,
     FtnBrandsComponent,
     FtnBenefitsComponent,
-    FtnButtonComponent],
+    FtnButtonComponent,
+    FtnCardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
